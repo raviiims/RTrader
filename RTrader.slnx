@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/RTrader.Api/RTrader.Api.csproj" />
+  <Project Path="src/RTrader.Application/RTrader.Application.csproj" />
+  <Project Path="src/RTrader.Domain/RTrader.Domain.csproj" />
+  <Project Path="src/RTrader.Infrastructure/RTrader.Infrastructure.csproj" />
+  <Project Path="src/RTrader.Shared/RTrader.Shared.csproj" />
+  <Project Path="src/RTrader.Worker/RTrader.Worker.csproj" />
+  <Project Path="tests/RTrader.Tests/RTrader.Tests.csproj" />
+</Solution>

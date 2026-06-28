@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-RTrader.Worker-901dfa12-832b-4feb-b974-63f4c79fcfe0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RTrader.Infrastructure\RTrader.Infrastructure.csproj" />
+    <ProjectReference Include="..\RTrader.Application\RTrader.Application.csproj" />
+  </ItemGroup>
+</Project>
