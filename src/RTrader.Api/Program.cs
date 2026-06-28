@@ -17,6 +17,7 @@ builder.Host.UseSerilog((ctx, lc) =>
 builder.Services.AddApplicationServices(builder.Configuration);
 
 builder.Services.AddSwaggerDocumentation();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
